@@ -53,7 +53,7 @@ describe('Protractor App', function() {
     expect(secondNumber.getAttribute('value')).toEqual('200');
   });
 
-  it('should have a history', function() { //positive
+  it('should have a history', function() { //checking dynamic history results
     add(45, 55);
     add(1, 2);
     add(10, 20);
